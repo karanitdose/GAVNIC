@@ -23,7 +23,7 @@ const Header = () => {
       </div>
       {/* Contact Bar */}
       <div className="bg-purple-600 text-white text-center text-sm py-2 text-bold-800">
-        Contact Us : 9569125048 / 9810724994
+        <span >Contact Us :  9810724994</span>
       </div>
       {/* Mobile Search */}
       <div className="md:hidden flex items-center p-3 bg-gray-100">

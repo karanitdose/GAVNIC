@@ -3,12 +3,14 @@ import Header from './components/Header/page'
 import Footer from './components/Footer/page'
 import WhatsAppButton from './components/WhatsppComponent/page'
 import Carousel from './components/Carousel/page'
+import Category from './components/Category/page'
 
 function Home() {
   return (
     <div>
       <Header />
       <Carousel /> 
+      <Category />
       <WhatsAppButton />
       <Footer />
     </div>
