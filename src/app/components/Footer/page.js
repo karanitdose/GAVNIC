@@ -6,31 +6,37 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Company Info */}
         <div>
-          <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
+        <Link href="/" >
+        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
             GAVNIC
-          </h1>
+          </h1></Link>
           <p className="mt-4 text-gray-400">
           gavnic.com is a platform that provides supplies for the IT industry and people related to it.
           </p>
+          <Link href="/pages/aboutus" >
           <h2 className="mt-4 text-lg font-semibold">About Us</h2>
+          </Link>
         </div>
         {/* Help & Support */}
         <div>
           <h2 className="text-lg font-semibold">Help & Support</h2>
           <ul className="mt-2 space-y-2">
-            <li><Link href="#"><span className="text-gray-400 hover:text-white cursor-pointer">Contact Us</span></Link></li>
-            <li><Link href="#"><span className="text-gray-400 hover:text-white cursor-pointer">FAQs</span></Link></li>
-            <li><Link href="#"><span className="text-gray-400 hover:text-white cursor-pointer">Track My Order</span></Link></li>
+            <li><Link href="/pages/contactUs"><span className="text-gray-400 hover:text-white cursor-pointer">Contact Us</span></Link></li>
+            <li><Link href="/pages/fandq"><span className="text-gray-400 hover:text-white cursor-pointer">FAQs</span></Link></li>
+            <li><Link href="/pages/ProductForm"><span className="text-gray-400 hover:text-white cursor-pointer">Add Product</span></Link></li>
+            
+             
           </ul>
         </div>
         {/* Privacy & Legal */}
         <div>
           <h2 className="text-lg font-semibold">Privacy & Legal</h2>
           <ul className="mt-2 space-y-2">
-            <li><Link href="#"><span className="text-gray-400 hover:text-white cursor-pointer">Return Policy</span></Link></li>
-            <li><Link href="#"><span className="text-gray-400 hover:text-white cursor-pointer">Privacy Policy</span></Link></li>
-            <li><Link href="#"><span className="text-gray-400 hover:text-white cursor-pointer">Cancellation Policy</span></Link></li>
+            <li><Link href="/pages/returnPolicy"><span className="text-gray-400 hover:text-white cursor-pointer">Return Policy</span></Link></li>
+            <li><Link href="/pages/privacyPolcy"><span className="text-gray-400 hover:text-white cursor-pointer">Privacy Policy</span></Link></li>
+            <li><Link href="/pages/cancellationpolicy"><span className="text-gray-400 hover:text-white cursor-pointer">Cancellation Policy</span></Link></li>
             <li><Link href="#"><span className="text-gray-400 hover:text-white cursor-pointer">Terms & Conditions</span></Link></li>
+            
           </ul>
         </div>
       </div>

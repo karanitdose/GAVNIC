@@ -3,14 +3,23 @@ import Image from "next/image";
 import Link from "next/link";
 
 const categories = [
+  { name: "LAPTOP", img: "/CategoryImg/laptop.png", link: "/pages/laptop" },
+  { name: "DESKTOP", img: "/CategoryImg/dekstop.png", link: "/pages/desktop" },
+  { name: "KEYBOARD", img: "/CategoryImg/keyboard.png", link: "/pages/keyboard" },
   { name: "MOUSE", img: "/CategoryImg/mouse.png", link: "/pages/mouse" },
-  { name: "COMPUTER CABLE", img: "/CategoryImg/9828.png", link: "/pages/mouse" },
-  { name: "BATTERY", img: "/CategoryImg/battery.png", link: "/pages/battery" },
-  { name: "DATA CABLE", img: "/CategoryImg/cable.png", link: "/pages/blower" },
-  { name: "BATTERY", img: "/CategoryImg/battery.png", link: "/pages/battery" },
-  { name: "DATA CABLE", img: "/CategoryImg/cable.png", link: "/pages/blower" },
+  { name: "HEADPHONES", img: "/CategoryImg/headphone.png", link: "/pages/headphones" },
+  { name: "PRINTER", img: "/CategoryImg/printer.png", link: "/pages/printer" },
+  { name: "SPEAKERS", img: "/CategoryImg/speaker.png", link: "/pages/speakers" },
+  { name: "GRAPHICS CARD", img: "/CategoryImg/graphicCard.png", link: "/pages/graphicscard" },
+  
+  { name: "DATA CABLE", img: "/CategoryImg/datacable.png", link: "/pages/datacable" },
+  { name: "PROCESSOR", img: "/CategoryImg/proccessor.png", link: "/pages/processor" },
+  { name: "RAM", img: "/CategoryImg/rammemory.png", link: "/pages/ram" },
+  { name: "MOTHERBOARD", img: "/CategoryImg/mother.png", link: "/pages/motherboard" },
+  { name: "CHARGER (ADOPTER)", img: "/CategoryImg/charger.png", link: "/pages/charger" },
   
 ];
+
 
 const Category = () => {
   return (
@@ -22,8 +31,8 @@ const Category = () => {
               <Image
                 src={category.img}
                 alt={category.name}
-                width={150}
-                height={150}
+                width={120}
+                height={120}
                 className="object-contain"
               />
             </div>

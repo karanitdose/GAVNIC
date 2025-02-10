@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FaSearch, FaUser, FaShoppingCart } from 'react-icons/fa';
 
 const Header = () => {
@@ -5,9 +6,11 @@ const Header = () => {
     <header className="w-full shadow-md">
       {/* Top Bar */}
       <div className="bg-white flex items-center justify-between px-4 md:px-10 py-3">
-        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
+   <Link href="/" >
+   <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
           GAVNIC
         </h1>
+   </Link>
         <div className="hidden md:flex w-1/2 relative">
           <input
             type="text"
