@@ -23,7 +23,7 @@ const Footer = () => {
           <ul className="mt-2 space-y-2">
             <li><Link href="/pages/contactUs"><span className="text-gray-400 hover:text-white cursor-pointer">Contact Us</span></Link></li>
             <li><Link href="/pages/fandq"><span className="text-gray-400 hover:text-white cursor-pointer">FAQs</span></Link></li>
-            <li><Link href="/pages/ProductForm"><span className="text-gray-400 hover:text-white cursor-pointer">Add Product</span></Link></li>
+            <li><Link href="/pages/adminLogin"><span className="text-gray-400 hover:text-white cursor-pointer">Add Product</span></Link></li>
             
              
           </ul>
